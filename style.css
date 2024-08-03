@@ -1,12 +1,115 @@
 body{
 background-color: #4d5159;
+margin: 0%;
+padding: 0%;
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 .mid-gif{
+    position: fixed;
+    top: 0%;
     display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    height: 700px;
+    width: 100%;
 }
 .mid-gif img{
-    margin: 5% auto;
+margin: 0px auto;
+}
+.mid-gif #firstSpan{
+    margin: 0px auto;
+    font-size: 20px;
+    opacity: 0;
+    animation: fSpan 15s ease-in  normal;
+}
+@keyframes fSpan {
+    0%{
+        opacity: 0;
+        color: rgb(230, 230, 230);
+    }
+    20%{
+        opacity: 1;
+        color: #78a8ba;
+        font-size: 24px;
+    }
+    30%{
+        opacity: 0;
+        color: rgb(230, 230, 230);
+        font-size: 22px;
+    }
+    40%{
+        opacity: 1;
+        color: #78a8ba;
+        font-size: 24px;
+    }
+    50%{
+        opacity: 0;
+        color: rgb(230, 230, 230);
+        font-size: 22px;
+    }
+    60%{
+        opacity: 1;
+        color: #78a8ba;
+        font-size: 24px;
+    }
+    70%{
+        opacity: 0;
+        color: rgb(230, 230, 230);
+        font-size: 22px;
+    }
+    80%{
+        opacity: 1;
+        color: #78a8ba;
+        font-size: 24px;
+    }
+    90%{
+        opacity: 1;
+        color: rgb(230, 230, 230);
+        font-size: 22px;
+
+    }
+    100%{
+        opacity: 0;
+        color: #78a8ba;
+        font-size: 24px;
+    }
+}
+.mid-gif #secSpan{
+    margin: 0px auto;
+    color: rgb(64, 195, 255);
+    font-size: 20px;
+    animation: sSpan 30s ease-in  normal;
+}
+@keyframes sSpan {
+    0%{
+        opacity: 0;
+        color: rgb(230, 230, 230);
+    }
+    20%{
+        color: rgb(230, 230, 230);
+        font-size: 24px;
+    }
+    45%{
+        opacity: 0;
+        color: rgb(230, 230, 230);
+        font-size: 24px;
+    }
+
+    54%{
+        opacity: 1;
+        color: rgb(230, 230, 230);
+        font-size: 24px;
+    }
+    60%{
+        opacity: 1;
+        color: rgb(64, 195, 255);
+        font-size: 24px;
+    }
+    100%{
+        opacity: 1;
+        color: rgb(64, 195, 255);
+        font-size: 24px;
+    }
 }
