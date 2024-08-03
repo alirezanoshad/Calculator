@@ -1,9 +1,12 @@
 body{
 background-color: #4d5159;
 }
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .mid-gif{
     display: flex;
 }
 .mid-gif img{
-    margin: 0 auto;
+    margin: 5% auto;
 }
