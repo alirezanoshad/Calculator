@@ -1,8 +1,8 @@
 // defining Basic Numbers By User.
 let Calculator = {
 //we added number to our code in order to comvert our value to number.
-    numberA: Number(prompt("first number")),
-    numberB: Number(prompt("sec number")),
+    numberA: Number(prompt("first number(A)")),
+    numberB: Number(prompt("sec number(B)")),
 };
 
 // defining Mathematical Applications.
